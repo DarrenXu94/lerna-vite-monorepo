@@ -1,13 +1,17 @@
 <template>
-  <div>header</div>
+  <div>
+    header
+    <Button></Button>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { Button } from "vite-common";
 
 export default defineComponent({
   name: "Header",
-  components: {},
+  components: { Button },
   data() {
     return {};
   },

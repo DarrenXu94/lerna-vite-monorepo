@@ -1,0 +1,15 @@
+{
+  "name": "vite-header",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./dist/vite-header.umd.cjs",
+  "module": "./dist/vite-header.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}

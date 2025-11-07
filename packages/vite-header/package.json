@@ -2,7 +2,7 @@
   "name": "vite-header",
   "private": true,
   "version": "0.0.2",
-  "main": "./dist/vite-header.umd.cjs",
+  "main": "./dist/vite-header.js",
   "module": "./dist/vite-header.js",
   "type": "module",
   "scripts": {

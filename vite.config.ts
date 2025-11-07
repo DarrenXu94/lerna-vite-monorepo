@@ -12,12 +12,13 @@ export const getBaseConfig = ({ plugins = [], lib }: any) =>
       rollupOptions: {
         // Make sure to externalize dependencies that shouldn't be bundled
         external: ["vue"],
-        output: {
-          // Provide global variables to use in the UMD build for externalized deps
-          globals: {
-            vue: "Vue",
+        output: [
+          {
+            format: "es",
+            dir: "dist",
+            preserveModules: true,
           },
-        },
+        ],
       },
     },
   });

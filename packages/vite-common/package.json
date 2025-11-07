@@ -1,7 +1,7 @@
 {
   "name": "vite-common",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/vite-common.umd.cjs",
   "module": "./dist/vite-common.js",
   "type": "module",

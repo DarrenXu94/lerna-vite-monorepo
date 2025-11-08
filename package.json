@@ -4,11 +4,17 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
   "dependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
     "vite-plugin-dts": "^4.5.4"
   },
   "devDependencies": {
-    "lerna": "^9.0.0"
+    "lerna": "^9.0.0",
+    "@storybook/vue3-vite": "^10.0.6",
+    "storybook": "^10.0.6"
   }
 }

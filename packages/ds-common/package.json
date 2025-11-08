@@ -1,15 +1,15 @@
 {
-  "name": "my-component-library",
+  "name": "ds-common",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/my-component-library.cjs.js",
-  "module": "./dist/my-component-library.es.js",
+  "main": "./dist/ds-common.cjs.js",
+  "module": "./dist/ds-common.es.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/my-component-library.es.js",
-      "require": "./dist/my-component-library.cjs.js"
+      "import": "./dist/ds-common.es.js",
+      "require": "./dist/ds-common.cjs.js"
     },
     "./style.css": "./dist/style.css"
   },

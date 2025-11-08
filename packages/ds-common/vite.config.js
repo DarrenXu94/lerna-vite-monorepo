@@ -16,8 +16,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, "src/index.ts"), // Your library's entry point
-            name: "MyComponentLibrary", // Global name if using UMD format
-            fileName: (format) => `my-component-library.${format}.js`, // Output file name
+            name: "DSCommon", // Global name if using UMD format
+            fileName: (format) => `ds-common.${format}.js`, // Output file name
             formats: ["es", "cjs", "umd"], // Output formats (ES Module, CommonJS, UMD)
         },
         rollupOptions: {

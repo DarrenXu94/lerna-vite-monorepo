@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
-import { MyButton } from "my-component-library";
+import { MyButton } from "ds-common";
 </script>
 
 <template>

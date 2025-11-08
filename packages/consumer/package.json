@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "my-component-library": "^0.0.0",
+    "ds-common": "^0.0.0",
     "vue": "^3.5.22"
   },
   "devDependencies": {

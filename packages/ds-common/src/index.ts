@@ -1,3 +1,3 @@
-import MyButton from "./components/MyButton.vue";
+import DsButton from "./components/DsButton/DsButton.vue";
 
-export { MyButton };
+export { DsButton };

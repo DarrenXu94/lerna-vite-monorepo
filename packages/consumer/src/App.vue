@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
-import { MyButton } from "ds-common";
+import { DsButton } from "ds-common";
 </script>
 
 <template>
   <div>
-    <MyButton></MyButton>
+    <DsButton></DsButton>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
